@@ -1,0 +1,44 @@
+﻿<Window x:Class="Lab2_WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="Auto" Width="Auto">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Height="Auto" MinHeight="80 px" Width="Auto" Grid.Row="0" Background="Azure"/>
+        <UniformGrid Rows="6" Columns="4" Grid.Row="1">
+            <Button Content="%" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px" />
+            <Button Content="CE" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="C" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="⇐" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="1/x" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="x²" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="√x" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="÷" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="7" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="8" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="9" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="x" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="26px"/>
+            <Button Content="4" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="5" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="6" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="-" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="1" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="2" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="3" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="+" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="+/-" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="0" Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="," Background="White" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+            <Button Content="=" Background="#FFEBEFF0" MinHeight="60px" MinWidth="60px" Margin="5px" Padding="5px" FontFamily="Arial Unicode MS" FontSize="40px"/>
+           
+        </UniformGrid >
+
+    </Grid>
+</Window>
